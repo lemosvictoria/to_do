@@ -22,9 +22,7 @@
     </div>
 
     <div class="rodape">
-      <div class="vertical">
-        <p>Projeto desenvolvido por Victória Lemos</p>
-      </div>     
+      <p>Projeto desenvolvido por Victória Lemos</p>
     </div>
 
   </div>
@@ -66,11 +64,6 @@ export default {
 
 <style scoped>
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
 .img-logo{
   max-width: 100px;
   margin: 0 auto;
@@ -101,12 +94,6 @@ export default {
   padding-left: 8px;
   padding-right: 8px;
   padding-top: 16px;
-  padding-bottom: 16px;
-  @media (max-width: 800px) {
-      margin-bottom: 50px;
-    }
-
-
 }
 
 .btn.btn-link {
