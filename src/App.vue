@@ -4,7 +4,7 @@
       <div class="tile-icon">
         <a href="https://github.com/lemosvictoria" class="btn btn-link">GitHub</a>
         <a href="https://www.linkedin.com/in/victorialuisatl/" class="btn btn-link">LinkedIn</a>
-      </div>    
+      </div>   
     </div>
 
     <div class="container grid-xs py-2">
@@ -20,6 +20,13 @@
         <todo v-for="t in todos" :key="t.id" @toggle="toggleTodo" @remove="removeTodo" :todo="t" />
       </div>
     </div>
+
+    <div class="rodape">
+      <div class="vertical">
+        <p>Projeto desenvolvido por Victória Lemos</p>
+      </div>     
+    </div>
+
   </div>
 </template>
 
@@ -58,6 +65,12 @@ export default {
 </script>
 
 <style scoped>
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .img-logo{
   max-width: 100px;
   margin: 0 auto;
@@ -74,6 +87,26 @@ export default {
   padding: 8px;
   margin-bottom: 20px;
   text-align: right;
+}
+
+.rodape {
+  background: #5755d9;
+  color: white;
+  width: 100%;
+  bottom: 0px;
+  text-align: center;
+  align-items: center;
+  position:fixed;
+
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  @media (max-width: 800px) {
+      margin-bottom: 50px;
+    }
+
+
 }
 
 .btn.btn-link {
