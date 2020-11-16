@@ -1,9 +1,8 @@
 <template>
   <div id="app">
-    <div class="cabecalho">        
-      <div class="tile-icon">
-        <a href="https://github.com/lemosvictoria" class="btn btn-link">GitHub</a>
-        <a href="https://www.linkedin.com/in/victorialuisatl/" class="btn btn-link">LinkedIn</a>
+    <div class="cabecalho">     
+      <div>
+        <h5>To Do List - Gerenciador de tarefas</h5>
       </div>   
     </div>
 
@@ -22,7 +21,7 @@
     </div>
 
     <div class="rodape">
-      <p>Projeto desenvolvido por Victória Lemos</p>
+      Projeto desenvolvido por Victória Lemos   
     </div>
 
   </div>
@@ -79,7 +78,12 @@ export default {
   width: 100%;
   padding: 8px;
   margin-bottom: 20px;
-  text-align: right;
+}
+
+h5{
+  text-align: center;
+  color: white;
+  margin: 10px;
 }
 
 .rodape {
@@ -88,16 +92,8 @@ export default {
   width: 100%;
   bottom: 0px;
   text-align: center;
-  align-items: center;
-  position:fixed;
-
-  padding-left: 8px;
-  padding-right: 8px;
+  position: fixed;
   padding-top: 16px;
-}
-
-.btn.btn-link {
-  color: white;
-  padding-right: 50px;
+  padding-bottom: 16px;
 }
 </style>
