@@ -1,4 +1,6 @@
-# toDo
+# to Do List
+
+Gerenciador de tarefas do seu dia-a-dia, podendo adicionar, remover e marcar como finalizada cada tarefa!
 
 ## Project setup
 ```
