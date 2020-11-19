@@ -21,9 +21,12 @@
     </div>
 
     <div class="rodape">
-      Projeto desenvolvido por Victória Lemos   
+      Projeto desenvolvido por Victória Lemos
+      <div class="links">
+        <a href="https://github.com/lemosvictoria" class="btn btn-link">- GitHub -</a>
+        <a href="https://www.linkedin.com/in/victorialuisatl/" class="btn btn-link">- LinkedIn -</a>
+      </div>
     </div>
-
   </div>
 </template>
 
@@ -78,6 +81,7 @@ export default {
   width: 100%;
   padding: 8px;
   margin-bottom: 20px;
+  
 }
 
 h5{
@@ -92,8 +96,21 @@ h5{
   width: 100%;
   bottom: 0px;
   text-align: center;
+  align-items: center;
   position: fixed;
   padding-top: 16px;
   padding-bottom: 16px;
 }
+
+.links {
+  display: inline-flex;
+  text-align: center;  
+  align-items: center;
+
+}
+
+.btn.btn-link {
+  color: white;
+}
+
 </style>
